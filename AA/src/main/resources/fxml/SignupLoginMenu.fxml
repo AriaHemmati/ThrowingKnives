@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.SignupLoginMenu"
+            prefHeight="800.0" prefWidth="800.0">
+    <center>
+        <VBox alignment="CENTER" spacing="30">
+            <Label text="Welcome to Signup/Login Menu" maxWidth="400"/>
+            <TextField promptText="enter your username(or leave it empty as a guest)" maxWidth="400" fx:id="username"/>
+            <TextField promptText="enter your password" maxWidth="400" fx:id="password"/>
+            <TextField promptText="select your avatar(p1.png, p2.png, p3.png, or your file)" maxWidth="400" fx:id="avatar"/>
+            <Button alignment="CENTER" text="register / signup" onMouseClicked="#startTheGame"/>
+
+        </VBox>
+    </center>
+
+</BorderPane>
